@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crystal Wall — a calmer new tab</title>
+  <meta name="description" content="Crystal Wall replaces your new tab with your own wallpaper, a big clock, search, quick links, a focus timer and fourteen themes. Free, local-only, no account." />
+  <meta name="theme-color" content="#203b42" />
+  <link rel="icon" href="assets/icon-128.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#features">Skip to features</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <img src="assets/icon-128.png" alt="" width="32" height="32" />
+      <span>Crystal Wall</span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#features">Features</a>
+      <a href="#browsers">Browsers</a>
+      <a href="#update">Update</a>
+    </nav>
+    <a class="btn btn-small btn-primary" href="https://github.com/mahant3595/CrystalWall-newTab-extensionRelease/archive/refs/heads/main.zip">Download</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="chip">Version 1.3.0 · Chrome &amp; Edge · Manifest V3</p>
+        <h1>A calmer new tab.</h1>
+        <p class="lede">
+          Your own wallpaper, a big clock, search that suggests as you type, the sites you
+          actually open, a focus timer and weather — on frosted glass that stays out of the way.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://github.com/mahant3595/CrystalWall-newTab-extensionRelease/archive/refs/heads/main.zip">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            Download extension
+          </a>
+          <a class="btn btn-ghost" href="#browsers">How to install</a>
+        </div>
+        <ul class="hero-notes">
+          <li>No account, no sign-up</li>
+          <li>Everything stays in your browser</li>
+          <li>Free and open source (Apache 2.0)</li>
+        </ul>
+      </div>
+
+      <div class="hero-mock" aria-hidden="true">
+        <div class="mock-wallpaper">
+          <div class="mock-top">
+            <span class="mock-pill">°C 21°</span>
+            <span class="mock-pill">Focus 25:00</span>
+          </div>
+          <div class="mock-center">
+            <p class="mock-time">09:41</p>
+            <p class="mock-date">Monday, 24 November</p>
+            <div class="mock-search">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <span>Search the web or type a URL</span>
+            </div>
+            <div class="mock-tiles">
+              <span class="mock-tile"><i>G</i></span>
+              <span class="mock-tile"><i>Y</i></span>
+              <span class="mock-tile"><i>P</i></span>
+              <span class="mock-tile"><i>in</i></span>
+              <span class="mock-add">+</span>
+            </div>
+          </div>
+          <div class="mock-quote">“Almost everything will work again if you unplug it for a few minutes.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <header class="section-head">
+        <p class="eyebrow">Features</p>
+        <h2>Everything on one quiet page</h2>
+        <p class="section-lede">Every card below is optional: turn it off, drag it somewhere else, fade it, or leave it behind in Zen view.</p>
+      </header>
+
+      <div class="feature-grid">
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m3 16 5-5 4 4 3-3 6 6"/><circle cx="15" cy="8.5" r="1.5"/></svg></span>
+          <h3>Your wallpaper</h3>
+          <p>Pick a bundled scene or upload your own photo or video. A live wallpaper pauses itself when the tab is in the background, so nothing keeps decoding behind a window you cannot see.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
+          <h3>Search that keeps up</h3>
+          <p>Google suggestions as you type, DuckDuckGo when Google is unreachable, plus your own recent queries shown instantly — and the suggestion list always floats above the tiles.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg></span>
+          <h3>Quick links</h3>
+          <p>Your sites as tiles with their real favicons. Add, rename, reorder and recolour them, choose how many show, and drag the tile size anywhere from 72 to 160 pixels.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M9 2h6M12 5v1M12 13V9"/></svg></span>
+          <h3>Focus timer</h3>
+          <p>25, 45 or 60 minute sessions with a ring that fills as the time passes. Work and break alternate, and the widget tells you when a session ends instead of ending in silence.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M6 18a4 4 0 0 1 0-8 6 6 0 0 1 11.6-2A3.5 3.5 0 0 1 18 18Z"/><path d="M12 12v5"/></svg></span>
+          <h3>Weather, for your place</h3>
+          <p>Current conditions and a two-day forecast from Open-Meteo, with no key and no account. Use your browser's location once, or type a town by hand — and switch °C/°F whenever.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18h1.5a2 2 0 0 0 0-4H13a2 2 0 0 1 0-4h3.5A4.5 4.5 0 0 0 21 8.5C21 5.5 17 3 12 3Z"/><circle cx="8" cy="9" r="1"/><circle cx="12" cy="7" r="1"/><circle cx="16" cy="9" r="1"/></svg></span>
+          <h3>Fourteen themes</h3>
+          <p>From glass to Dracula, Nord, Gruvbox, Tokyo Night and iOS. Tune font colour, glass tint, transparency, blur, outline and halo per theme, import your own, and the settings panel follows along.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6Z"/><circle cx="12" cy="12" r="2.5"/></svg></span>
+          <h3>Zen view</h3>
+          <p>One press fades the page down to the clock, the wallpaper and whatever you chose to keep. Every widget gets its own row in Settings → Zen view, so nothing disappears that you wanted.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H4z"/><path d="M8 20h8M10 16v4M14 16v4"/><path d="M7 8h6M7 11h4"/></svg></span>
+          <h3>Keyboard first</h3>
+          <p><kbd>Ctrl</kbd>+<kbd>K</kbd> opens the command palette, <kbd>/</kbd> jumps to search, <kbd>Alt</kbd>+<kbd>Z</kbd> toggles Zen. Record your own combination for twenty actions, and edit any saved one in place.</p>
+        </article>
+
+        <article class="card">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M4 7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M12 11v5M9.5 13.5 12 11l2.5 2.5"/></svg></span>
+          <h3>Backup and folder sync</h3>
+          <p>Export every setting, theme, wallpaper and track to one readable file, or point two profiles at a folder and let them merge. A wrong import is one <strong>Undo last change</strong> away.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="browsers">
+      <header class="section-head">
+        <p class="eyebrow">Install</p>
+        <h2>Add it to your browser</h2>
+        <p class="section-lede">
+          Crystal Wall is loaded unpacked — the same three clicks in every Chromium browser.
+          Pick yours and the exact steps, with the right settings address, open below.
+        </p>
+      </header>
+
+      <div class="browser-grid">
+        <button class="browser" type="button" data-browser="chrome">
+          <span class="browser-mark chrome-mark" aria-hidden="true"><i></i></span>
+          <span class="browser-name">Chrome</span>
+          <span class="browser-action">Add to Chrome</span>
+        </button>
+        <button class="browser" type="button" data-browser="edge">
+          <span class="browser-mark edge-mark" aria-hidden="true"><i></i></span>
+          <span class="browser-name">Edge</span>
+          <span class="browser-action">Add to Edge</span>
+        </button>
+        <button class="browser" type="button" data-browser="brave">
+          <span class="browser-mark brave-mark" aria-hidden="true"><i></i></span>
+          <span class="browser-name">Brave</span>
+          <span class="browser-action">Add to Brave</span>
+        </button>
+        <button class="browser" type="button" data-browser="opera">
+          <span class="browser-mark opera-mark" aria-hidden="true"><i></i></span>
+          <span class="browser-name">Opera</span>
+          <span class="browser-action">Add to Opera</span>
+        </button>
+        <button class="browser" type="button" data-browser="vivaldi">
+          <span class="browser-mark vivaldi-mark" aria-hidden="true"><i></i></span>
+          <span class="browser-name">Vivaldi</span>
+          <span class="browser-action">Add to Vivaldi</span>
+        </button>
+        <button class="browser" type="button" data-browser="other">
+          <span class="browser-mark other-mark" aria-hidden="true"><i></i></span>
+          <span class="browser-name">Any other browser</span>
+          <span class="browser-action">What works</span>
+        </button>
+      </div>
+
+      <div class="install-cta">
+        <a class="btn btn-primary" href="https://github.com/mahant3595/CrystalWall-newTab-extensionRelease/archive/refs/heads/main.zip">Download the extension (.zip)</a>
+        <p>Chrome 137+ no longer accepts command-line installs, so the four clicks are the install. Unzip first — the folder you point at must contain <code>manifest.json</code>.</p>
+      </div>
+    </section>
+
+    <section class="section" id="update">
+      <div class="update-layout">
+        <div class="update-steps">
+          <p class="eyebrow">Update</p>
+          <h2>Updating takes one reload</h2>
+          <ol class="steps">
+            <li>
+              <span class="step-number">1</span>
+              <div>
+                <h3>Download the newer build</h3>
+                <p>Grab the current folder again and replace the old one, keeping the same path.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">2</span>
+              <div>
+                <h3>Open your extensions page</h3>
+                <p><code>chrome://extensions</code> or <code>edge://extensions</code>, with Developer mode still on.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">3</span>
+              <div>
+                <h3>Press the reload arrow</h3>
+                <p>On the Crystal Wall card. Your settings, shortcuts, wallpapers, notes and music stay exactly where they were.</p>
+              </div>
+            </li>
+          </ol>
+          <a class="btn btn-ghost" href="https://github.com/mahant3595/CrystalWall-newTab-extensionRelease/archive/refs/heads/main.zip">Get the latest version</a>
+        </div>
+
+        <aside class="card update-card">
+          <div class="update-head">
+            <h2>Recently added</h2>
+            <span class="chip chip-solid">1.3.0</span>
+          </div>
+          <ul class="changelog">
+            <li>
+              <span class="changelog-tag">New</span>
+              <p><strong>Suggestions above everything.</strong> The search dropdown now floats over the quick-access tiles whatever order your widgets are stacked in, and the timer editor does the same.</p>
+            </li>
+            <li>
+              <span class="changelog-tag">New</span>
+              <p><strong>Photos sit behind.</strong> Photo and video widgets default to the back layer, so tiles and text read clearly without rearranging anything.</p>
+            </li>
+            <li>
+              <span class="changelog-tag">New</span>
+              <p><strong>Focus timer feedback.</strong> A finished session is announced with a toast and a subtle ring pulse instead of passing silently.</p>
+            </li>
+            <li>
+              <span class="changelog-tag">New</span>
+              <p><strong>Widgets from the keyboard.</strong> Focus a widget and move, resize or restack it without the mouse.</p>
+            </li>
+            <li>
+              <span class="changelog-tag">New</span>
+              <p><strong>Quieter media.</strong> A “Pause media when not needed” option stops video and audio when the tab is hidden.</p>
+            </li>
+            <li>
+              <span class="changelog-tag">New</span>
+              <p><strong>Safer backups.</strong> Exporting a backup that carries heavy widget media now warns you first, with the size, before writing the file.</p>
+            </li>
+            <li>
+              <span class="changelog-tag">New</span>
+              <p><strong>Your own quotes</strong>, a library of up to twenty lines, each shown at random on a new tab.</p>
+            </li>
+          </ul>
+          <p class="update-foot">Rebuilt by <code>npm run build</code>; the release folder here is the published build.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section privacy">
+      <div class="privacy-card">
+        <div>
+          <p class="eyebrow">Privacy</p>
+          <h2>Nothing leaves your browser</h2>
+          <p>Settings, wallpapers, themes and notes live in your browser's own storage. There is no account, no server of ours and no analytics. The only requests are the ones a feature needs: Google's suggestion endpoint, Open-Meteo for weather, and whatever address serves a wallpaper you chose.</p>
+        </div>
+        <ul class="privacy-list">
+          <li><strong>Local storage</strong> for every setting and widget layout</li>
+          <li><strong>Off by default</strong> location weather</li>
+          <li><strong>No tracking</strong> scripts of any kind</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/icon-128.png" alt="" width="26" height="26" />
+      <span>Crystal Wall <span class="footer-version">1.3.0</span></span>
+    </div>
+    <div class="footer-legal">
+      <p>© <span id="year">2026</span> Crystal Wall. All rights reserved — free to install and use, unmodified; the code may not be modified, redistributed or sold.</p>
+      <p>Made for Chrome and Edge, and every browser built on Chromium. The full terms are in the <code>LICENSE</code> file that comes with the extension.</p>
+    </div>
+  </footer>
+
+  <dialog class="install-dialog" id="install-dialog" aria-labelledby="install-title">
+    <form method="dialog" class="dialog-head">
+      <div class="dialog-title">
+        <span class="browser-mark" id="dialog-mark" aria-hidden="true"><i></i></span>
+        <h2 id="install-title">Add to Chrome</h2>
+      </div>
+      <button class="dialog-close" value="close" aria-label="Close">
+        <svg viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+    </form>
+    <div class="dialog-body">
+      <p class="dialog-note" id="dialog-note"></p>
+      <ol class="steps steps-compact" id="dialog-steps"></ol>
+      <div class="dialog-address">
+        <span class="address-label">Extensions page</span>
+        <div class="address-row">
+          <code id="dialog-address">chrome://extensions</code>
+          <button class="btn btn-small btn-ghost" type="button" id="copy-address">Copy</button>
+        </div>
+      </div>
+      <a class="btn btn-primary dialog-download" href="https://github.com/mahant3595/CrystalWall-newTab-extensionRelease/archive/refs/heads/main.zip">Download the extension</a>
+      <p class="dialog-hint">Keep the unzipped folder where you put it — the browser re-reads it every new tab.</p>
+    </div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
